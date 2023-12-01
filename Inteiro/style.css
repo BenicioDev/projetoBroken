@@ -1,0 +1,130 @@
+@keyframes fadeIn {
+       from {
+              opacity: 0;
+       }
+
+       to {
+              opacity: 1;
+       }
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+       padding: 20px;
+       box-sizing: border-box;
+       padding-top: 24px;
+}
+
+.container3 {
+       padding-top: 24px;
+}
+
+
+.imgHuman {
+       max-width: 100%;
+       width: 500px;
+
+}
+
+.pHeader {
+       color: white;
+       font-size: 16px;
+       font-family: cursive;
+}
+
+.imgHeader {
+       max-width: 100%;
+       width: 190px;
+}
+
+
+.youtube-video,
+.imagesAll {
+       max-width: 100%;
+       width: 500px;
+       height: 420px;
+       margin: 0 auto;
+       display: block;
+}
+
+.PreDesc {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       margin-top: -20px;
+       text-align: center;
+       font-size: 20px;
+}
+
+.PreDesc {
+       animation: fadeIn 4s ease-in-out;
+}
+
+.End {
+       text-align: center;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       padding: 20px;
+       box-sizing: border-box;
+       padding-top: 24px;
+}
+
+h1 {
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #f4f4f4;
+}
+
+header {
+       background-color: #333;
+       color: #fff;
+       padding: 1em;
+       text-align: center;
+}
+
+section {
+       max-width: 800px;
+       margin: 20px auto;
+       padding: 20px;
+       background-color: #fff;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+       max-width: 100%;
+       height: auto;
+       display: block;
+       margin: 10px auto;
+}
+
+h2 {
+       color: #333;
+}
+
+p,
+li {
+       color: #555;
+}
+
+li{
+       margin: 8px;
+} 
+a{
+       text-decoration: none;
+       color: #333;
+}
+
+footer {
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 5px;
+       position: relative;
+       bottom: -12px;
+       width: 100%;
+}
